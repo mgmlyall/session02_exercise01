@@ -1,0 +1,84 @@
+/*
+HTML selectors
+----------------------------------------------------
+*/
+body{
+	font-family: verdana, sans-serif;
+	background-color:#FFFEAA;
+	background-image:url("images/background_tile.png");
+}
+h2{
+	color:#440028;
+}
+ul{
+	list-style-type:none;
+}
+/*
+CLASS selectors
+----------------------------------------------------
+*/
+.navlink{
+	color:#651142;
+	font-weight:bold;
+}
+.navlink:hover{
+	color:#872D62;
+	text-decoration:none;
+}
+.thumb{
+	margin:10px;
+	float:left;
+	border-style:solid;
+	border-width:2px 2px 4px 2px;
+	border-color:#A95486 #651142 #651142 #A95486 ;
+	width:50px;
+	height:50px;
+}
+.blogpost{
+	background-color:#807F15;
+	color:#ffffff;
+	padding:10px;
+	margin:10px 5px;
+	font-size:.90em;
+	border-style:solid;
+	border-color:#A95486 #651142 #651142 #A95486 ;
+	border-width:1px 2px 5px 2px;
+}
+/*
+ID selectors
+----------------------------------------------------
+*/
+#header{
+	background-color:#440028;
+	background-image:url("images/background_tile.png");
+	padding:10px;
+	border-style:solid;
+	border-width:1px 2px 4px 1px;
+	border-color:#CB87AF #872D62 #872D62 #CB87AF ;
+	color:#AAA939;
+}
+#navigation, #externalnavigation{
+	background-color:#AAA939;
+	color:#872D62;
+	width:160px;
+	padding:10px;
+	position:absolute;
+	top:130px;
+	left:20px;
+	border-style:solid;
+	border-color:#A95486 #651142 #651142 #A95486 ;
+	border-width:1px 2px 3px 1px;
+}
+#externalnavigation{
+	top:318px;
+	left:20px;
+}
+#main{
+	margin-left:220px;
+	margin-right:20px;
+}
+#footer{
+	float:clear;
+	text-align:center;
+	color:#440028;
+}
